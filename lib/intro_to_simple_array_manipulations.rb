@@ -1,9 +1,9 @@
 def using_push (array, string)
-  array.push (string)
+  array.push(string)
   end
 
 def using_unshift (array, string)
-  array.unshift (string)
+  array.unshift(string)
   end
 
 def using_pop (array)
@@ -11,7 +11,7 @@ def using_pop (array)
 end
 
 def pop_with_args (array)
-  array.pop (2)
+  array.pop(2)
 end
 
 def using_shift (array)
@@ -23,7 +23,7 @@ def shift_with_args(array)
 end
 
 def using_concat (array1, array2)
-  array1.concat (array2)
+  array1.concat(array2)
 end
 
 def using_insert (array, element)
@@ -39,9 +39,9 @@ def using_flatten (array)
 end
 
 def using_delete (array, string)
-  array.delete (string)
+  array.delete(string)
 end
 
 def using_delete_at (array, interger)
-  array.delete_at (interger)
+  array.delete_at(interger)
 end
