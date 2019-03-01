@@ -1,4 +1,3 @@
-pry
 def using_push (array, string)
   array = []
   array.push (string)
@@ -22,7 +21,7 @@ def pop_with_args (array)
   array.pop (2)
   array
 end
-binding.pry
+
 def using_shift
 
 end
