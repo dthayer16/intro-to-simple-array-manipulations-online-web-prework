@@ -4,7 +4,11 @@ def using_push (array, string)
   array
 end
 
-def using_unshift
+def using_unshift (array, string)
+  array = [
+  array.unshift (string)
+  array
+  ]
 
 end
 
