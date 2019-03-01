@@ -5,9 +5,9 @@ def using_push (array, string)
 end
 
 def using_unshift (array, string)
-  new_array = []
+  array = []
   array.unshift (string)
-  new_array
+  array
 end
 
 def using_pop (array)
